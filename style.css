@@ -1,0 +1,60 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.myself{
+    height: 500px;
+    width: auto;
+}
+#clg{
+    height: 200px;
+    width: auto;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+}
+
+.about, .Background, .Skills {
+    
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+.Background{
+    background-color: bisque;
+}
+.about{
+    background-color: #33333346;
+}
+.Skills{
+    background-color: lightgray;
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+    
+    .about, .Background, .Skills, .contact {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
